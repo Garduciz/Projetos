@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(199, 194, 194);
+    width: 100%;
+    padding: 5px;
+    border: 2px;
+    justify-content: space-around;
+}
+.botao1{
+    padding: auto;
+    width: auto;
+    height: auto;
+
+}
+.caixa{
+    display: block;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    border: 5px;
+}
+.item1{
+    background-color: rgb(116, 109, 109); 
+   
+}
+.item2{
+    background-color: rgb(116, 109, 109); 
+}
+.item3{
+    background-color: rgb(116, 109, 109); 
+}

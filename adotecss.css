@@ -1,0 +1,50 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: sans-serif;
+
+}
+.adote{
+    background-color: gray;
+    flex-grow: 2;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    font-size: large;
+}
+.aqui{
+    background-color: gray;
+    width: 20px;
+    height: 20px;
+    color: rgb(238, 238, 63)
+    
+}
+.home{
+    background-color: rgb(235, 235, 112);
+    color: black;
+}
+
+.sobre{
+    background-color: rgb(235, 235, 112);
+    color: black;
+}
+
+.contato{
+    background-color: rgb(235, 235, 112);
+    color: black;
+}
+.aqui:hover{
+    font-size: x-large;
+}
+.contato:hover{
+    background-color: greenyellow;
+}
+.home:hover{
+    background-color: greenyellow;
+}
+.sobre:hover{
+    background-color: greenyellow;
+}

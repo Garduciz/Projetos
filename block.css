@@ -1,0 +1,41 @@
+
+.bloco4{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+    font-size: 40px;
+    width: 250px;
+    height: 250px;
+}
+.estrutura{
+    background-color: yellow;
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+.estrutura1{
+    background-color: rgb(38, 0, 255);
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+.estrutura2{
+    background-color: rgb(30, 197, 44);
+    font-size: 40px;
+    width: 250px;
+    text-align: center;
+    height: 250px;
+}
+.estrutura3{
+    background-color: rgb(255, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
