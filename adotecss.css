@@ -1,4 +1,7 @@
 
+body{
+    background-color: aliceblue;
+}
 .container{
     display: flex;
     flex-direction: row;
@@ -47,4 +50,25 @@
 }
 .sobre:hover{
     background-color: greenyellow;
+}
+.imagem{
+    align-items: center;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-position: center;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+
+}
+.privacidade{
+    background-color: rgb(235, 235, 112);
+    color: black;
+
+}
+.email{
+    background-color: rgb(235, 235, 112);
+    color: black;
 }
