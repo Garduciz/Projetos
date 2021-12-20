@@ -59,8 +59,8 @@ body{
     flex-wrap: wrap;
     background-position: center;
     margin: 10px;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 
 }
 .privacidade{
@@ -71,4 +71,8 @@ body{
 .email{
     background-color: rgb(235, 235, 112);
     color: black;
+}
+.imagem:hover{
+    width: 300px;
+    height: 300px;
 }
