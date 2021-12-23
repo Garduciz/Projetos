@@ -78,7 +78,7 @@ body{
     width: 300px;
     height: 300px;
 }
-@media(min-width: 50px) and (max-width: 800px){
+@media(min-width: 50px) and (max-width: 700px){
     body{ background-color: rgb(118, 247, 219);
     }
     .container{
