@@ -66,7 +66,9 @@ body{
 .privacidade{
     background-color: rgb(235, 235, 112);
     color: black;
-
+}
+.privacidade:hover{
+    color: mediumseagreen;
 }
 .email{
     background-color: rgb(235, 235, 112);
@@ -75,4 +77,103 @@ body{
 .imagem:hover{
     width: 300px;
     height: 300px;
+}
+@media(min-width: 50px) and (max-width: 800px){
+    body{ background-color: rgb(118, 247, 219);
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        font-family: sans-serif;
+    
+    }
+    .adote{
+        background-color: rgb(7, 7, 7);
+        flex-grow: 2;
+        width: auto;
+        height: auto;
+        margin: auto;
+        padding: 10px;
+        font-size: small;
+        border-radius: 10px;
+    }
+    .aqui{
+        background-color: rgb(0, 0, 0);
+        width: 20px;
+        height: 20px;
+        color: rgb(255, 255, 253) 
+        
+    }
+    .home{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+    
+    .sobre{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+    
+    .contato{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+    .aqui:hover{
+        font-size: smaller;
+        color: mediumseagreen;
+    }
+    .contato:hover{
+        background-color: rgb(32, 214, 16);
+    }
+    .home:hover{
+        background-color: rgb(30, 255, 0);
+    }
+    .sobre:hover{
+        background-color: rgb(23, 255, 15);
+    }
+    .imagem{
+        align-items: center;
+        display: inline-block;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-position: center;
+        margin: 10px;
+        width: 180px;
+        height: 180px;
+        border-radius: 10px;
+    
+    }
+    .privacidade{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        font-size: small;
+        margin: auto;
+        padding: auto;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+    }
+    .privacidade:hover{
+        color: mediumseagreen;
+    }
+    .email:hover{
+        color: mediumseagreen;
+    }
+    .email{
+        background-color: rgb(0, 0, 0);
+        font-size: small;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        margin: auto;
+        padding: auto;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+    }
+    .imagem:hover{
+        width: 220px;
+        height: 220px;
+    }
 }
