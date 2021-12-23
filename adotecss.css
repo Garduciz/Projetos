@@ -74,6 +74,9 @@ body{
     background-color: rgb(235, 235, 112);
     color: black;
 }
+.email:hover{
+    color: mediumseagreen;
+}
 .imagem:hover{
     width: 300px;
     height: 300px;
